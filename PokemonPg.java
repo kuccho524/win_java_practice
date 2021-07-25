@@ -19,16 +19,16 @@ public class PokemonPg {
     if(num > 0 && num < 5) {
       switch(num) {
         case 1:
-          System.out.println(pokemon + "、じわれ！");
+          System.out.println(pokemon + "、「じわれ」だ！");
           break;
         case 2:
-          System.out.println(pokemon + "、つのドリル！");
+          System.out.println(pokemon + "、「つのドリル」だ！");
           break;
         case 3:
-          System.out.println(pokemon + "、ハサミギロチン！");
+          System.out.println(pokemon + "、「ハサミギロチン」だ！");
           break;
         case 4:
-          System.out.println(pokemon + "、ぜったいれいど！");
+          System.out.println(pokemon + "、「ぜったいれいど」だ！");
           break;
       }
     } else {
