@@ -1,4 +1,4 @@
-package paiza.kadai;
+package paiza;
 
 import java.util.Scanner;
 
