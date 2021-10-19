@@ -10,7 +10,7 @@ public class Kadai13 {
 		// 整数型を持つ変数numberを宣言
 		int number = scan.nextInt();
 
-		// numberが100以上の時、numberを表示する
+		// numberが100以上の時、numberをする
 		if (number >= 100) {
 			System.out.println(number);
 		}
