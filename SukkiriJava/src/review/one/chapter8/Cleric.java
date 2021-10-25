@@ -41,7 +41,7 @@ public class Cleric {
 		System.out.println(this.name + "は" + sec + "秒間祈った");
 
 		// 理論上の回復量を乱数を用いて計算する
-		int recover = new Random().nextInt(3) + sec;
+		int recover = new Random().nextInt(3) + sec;  // Random()メソッドを利用するにはjava.util.*をimportする
 
 		// 実際の回復量を計算する
 		int recoverActual = Math.min(MAX_MP - this.mp, recover);
