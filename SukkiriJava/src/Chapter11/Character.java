@@ -1,6 +1,8 @@
 package Chapter11;
 
-public class Character {
+// 抽象メソッド含むクラスは、クラス宣言時にabstractを記述する
+
+public abstract class Character {
 	String name;
 	int hp;
 
@@ -10,9 +12,8 @@ public class Character {
 	}
 
 	// 戦う
-	public void attack(Matango m) {
-		System.out.println(this.name + "の攻撃");
-		m.hp -= ??;  // ダメージの数値が謎
-		System.out.println("敵に??ポイントのダメージを与えた");
-	}
+	// 詳細不明のメソッドは抽象メソッド（abstract）使用する
+	public abstract void attack(Matango m);
+
+	// 抽象クラスはnewによるインスタンス化が禁止される
 }
