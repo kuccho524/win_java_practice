@@ -48,6 +48,14 @@ public class Hero {
 		this.name = name;
 	}
 
+	public int getUp() {
+		return this.hp;
+	}
+
+	public void setUp(int hp) {
+		this.hp = hp;
+	}
+
 	/*
 	 * メンバに関するアクセス修飾子の定石
 	 * ・フィールドは全てprivate
