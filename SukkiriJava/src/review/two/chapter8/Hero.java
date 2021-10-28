@@ -1,4 +1,4 @@
-package review.two;
+package review.two.chapter8;
 
 // Heroクラス
 
